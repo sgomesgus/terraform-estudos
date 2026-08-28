@@ -13,14 +13,16 @@ Repositório dedicado ao aprendizado prático e anotações teóricas sobre **Te
 │   ├── 02-providers/                 # Uso de múltiplos providers (local, random)
 │   ├── 03-variables/                 # Declaração de variáveis e arquivo .tfvars
 │   ├── 04-resource-attributes/       # Referência de atributos e dependência implícita
-│   └── 05-dependencies/              # Dependências explícitas com depends_on
+│   ├── 05-dependencies/              # Dependências explícitas com depends_on
+│   └── 05-meta-arguments/            # Meta-argumentos (count, depends_on, lifecycle)
 ├── notes/                            # Anotações e resumos teóricos em Markdown
 │   ├── Terraform - Conceitos Básicos.md
 │   ├── 01-hcl-basics.md
 │   ├── 02-providers.md
 │   ├── 03-variables.md
 │   ├── 04-resource-attributes.md
-│   └── 05-dependencies.md
+│   ├── 05-dependencies.md
+│   └── 05-meta-arguments.md
 └── projects/                         # Projetos práticos e arquiteturas completas
 ```
 
@@ -34,3 +36,4 @@ Repositório dedicado ao aprendizado prático e anotações teóricas sobre **Te
 - 📄 [Lab 03: Variáveis de Entrada & Arquivos .tfvars](notes/03-variables.md)
 - 📄 [Lab 04: Atributos de Recursos & Dependência Implícita](notes/04-resource-attributes.md)
 - 📄 [Lab 05: Dependências Explícitas (`depends_on`)](notes/05-dependencies.md)
+- 📄 [Lab 05: Meta-Arguments (`count`, `depends_on`, `lifecycle`)](notes/05-meta-arguments.md)
